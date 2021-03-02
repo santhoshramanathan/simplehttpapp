@@ -1,0 +1,4 @@
+@Library('one_click_deploy@master')
+
+import poc.lib.*
+acejobhandler('SimpleHTTPApp')
