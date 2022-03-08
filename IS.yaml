@@ -12,7 +12,7 @@ spec:
   pod: 
     containers: 
       runtime: 
-        image: "image-registry.openshift-image-registry.svc:5000/cp4i/SimpleHTTPApp:latest-amd64"
+        image: "image-registry.openshift-image-registry.svc:5000/cp4i/simplehttpbar:latest-amd64"
   replicas: 1
   service: 
     endpointType: http
