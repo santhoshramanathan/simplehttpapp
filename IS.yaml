@@ -1,0 +1,22 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: IntegrationServer
+metadata: 
+  name: "${RELEASE_NAME}"
+spec: 
+  barURL: ""
+  designerFlowsOperationMode: disabled
+  license: 
+    accept: true
+    license: L-APEH-BPUCJK
+    use: CloudPakForIntegrationNonProduction
+  pod: 
+    containers: 
+      runtime: 
+        image: "image-registry.openshift-image-registry.svc:5000/cp4i/my-custom-ace-image-${BUILD_NO}:latest-amd64"
+  replicas: 1
+  service: 
+    endpointType: http
+  useCommonServices: true
+  version: 11.0.0.10-r1
+  configurations:
+    - corsenabled2
