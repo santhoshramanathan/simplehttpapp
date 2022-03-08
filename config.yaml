@@ -1,0 +1,10 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  namespace: cp4i
+  name: corsenabled2
+spec:
+  data: >-
+    UmVzb3VyY2VNYW5hZ2VyczoKICBIVFRQQ29ubmVjdG9yOgogICAgQ09SU0VuYWJsZWQ6IHRydWUKICAgIENPUlNBbGxvd09yaWdpbnM6ICcqJwogICAgQ09SU0FsbG93TWV0aG9kczogJ0dFVCxIRUFELFBPU1QsUFVULFBBVENILERFTEVURSxPUFRJT05TJw==
+  description: cors enabled for serverconfyaml
+  type: serverconf
