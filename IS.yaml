@@ -1,7 +1,7 @@
 apiVersion: appconnect.ibm.com/v1beta1
 kind: IntegrationServer
 metadata: 
-  name: "${RELEASE_NAME}"
+  name: oneclick-simplehttpbar
 spec: 
   barURL: ""
   designerFlowsOperationMode: disabled
@@ -12,7 +12,7 @@ spec:
   pod: 
     containers: 
       runtime: 
-        image: "image-registry.openshift-image-registry.svc:5000/cp4i/my-custom-ace-image-${BUILD_NO}:latest-amd64"
+        image: "image-registry.openshift-image-registry.svc:5000/cp4i/SimpleHTTPApp:latest-amd64"
   replicas: 1
   service: 
     endpointType: http
