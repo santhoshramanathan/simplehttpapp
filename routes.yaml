@@ -1,0 +1,12 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: simplehttpapp
+  namespace: cp4i
+spec:
+  path: /httptest
+  to:
+    kind: Service
+    name: oneclick-simplehttpapp-is
+  port:
+    targetPort: 7800
