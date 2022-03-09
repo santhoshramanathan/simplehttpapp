@@ -4,7 +4,7 @@ metadata:
   name: simplehttpapp
   namespace: cp4i
 spec:
-  path: /httptest
+  path: /test
   to:
     kind: Service
     name: oneclick-simplehttpapp-is
