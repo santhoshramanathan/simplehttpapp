@@ -5,7 +5,7 @@ CREATE COMPUTE MODULE SimpleHTTPMsgFlow_Compute
 	BEGIN
 		-- CALL CopyMessageHeaders();
 		-- CALL CopyEntireMessage();
-		SET OutputRoot.JSON.Data.Response.Message = 'Successful connection established with http application ';
+		SET OutputRoot.JSON.Data.Response.Message = 'Successful connection established with http application today ';
 		RETURN TRUE;
 	END;
 
