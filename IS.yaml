@@ -7,7 +7,7 @@ spec:
   designerFlowsOperationMode: disabled
   license: 
     accept: true
-    license: L-APEH-BPUCJK
+    license: L-KSBM-C87FU2
     use: CloudPakForIntegrationNonProduction
   pod: 
     containers: 
