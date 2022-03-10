@@ -2,7 +2,7 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: simplehttpapp
-  namespace: cp4i
+  namespace: cp4i-202131
 spec:
   path: /httptest
   to:

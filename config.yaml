@@ -1,7 +1,7 @@
 apiVersion: appconnect.ibm.com/v1beta1
 kind: Configuration
 metadata:
-  namespace: cp4i
+  namespace: cp4i-202131
   name: corsenabled2
 spec:
   data: >-
