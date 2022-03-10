@@ -1,7 +1,7 @@
 apiVersion: appconnect.ibm.com/v1beta1
 kind: IntegrationServer
 metadata: 
-  name: oneclick-simplehttpapp
+  name: simplehttpapp
 spec: 
   barURL: ""
   designerFlowsOperationMode: disabled

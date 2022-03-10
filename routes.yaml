@@ -7,6 +7,6 @@ spec:
   path: /httptest
   to:
     kind: Service
-    name: oneclick-simplehttpapp-is
+    name: simplehttpapp-is
   port:
     targetPort: 7800
