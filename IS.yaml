@@ -14,6 +14,7 @@ spec:
       runtime: 
         image: "image-registry.openshift-image-registry.svc:5000/cp4i-202131/simplehttpapp:latest-amd64"
   replicas: 1
+  adminServerSecure: true
   service: 
     endpointType: http
   useCommonServices: true
