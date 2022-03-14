@@ -1,4 +1,4 @@
-@Library('one_click_deploy@master')
+@Library('one_click_deploy@deploybyjfrog_14Mar22')
 
 import poc.lib.*
 acejobhandler('SimpleHTTPApp')
