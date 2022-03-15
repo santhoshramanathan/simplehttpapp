@@ -3,7 +3,7 @@ kind: IntegrationServer
 metadata: 
   name: simplehttpapp
 spec: 
-  barURL: 'https://cp4idevop.jfrog.io/artifactory/cp4iartefact/simplehttpapp.bar'
+  barURL: "https://cp4idevop.jfrog.io/artifactory/cp4iartefact/simplehttpapp.bar"
   designerFlowsOperationMode: disabled
   license: 
     accept: true
