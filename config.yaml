@@ -8,3 +8,14 @@ spec:
     UmVzb3VyY2VNYW5hZ2VyczoKICBIVFRQQ29ubmVjdG9yOgogICAgQ09SU0VuYWJsZWQ6IHRydWUKICAgIENPUlNBbGxvd09yaWdpbnM6ICcqJwogICAgQ09SU0FsbG93TWV0aG9kczogJ0dFVCxIRUFELFBPU1QsUFVULFBBVENILERFTEVURSxPUFRJT05TJw==
   description: cors enabled for serverconfyaml
   type: serverconf
+--
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  namespace: cp4i-202131
+  name: jfrogauth2
+spec:
+  data: >-
+    eyJhdXRoVHlwZSI6ICJCQVNJQ19BVVRIIiwiY3JlZGVudGlhbHMiOiB7InVzZXJuYW1lIjogInNhbnRob3NocmFtYW5hdGhhbjI1QGdtYWlsLmNvbSIsInBhc3N3b3JkIjogIkxvZ2luQE1hcmNoMjUifX0=
+  description: jfrog auth for bar
+  type: BarAuth
