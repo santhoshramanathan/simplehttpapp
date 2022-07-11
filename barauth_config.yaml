@@ -7,4 +7,4 @@ spec:
   data: >-
     eyJhdXRoVHlwZSI6ICJCQVNJQ19BVVRIIiwiY3JlZGVudGlhbHMiOiB7InVzZXJuYW1lIjogInNhbnRob3NocmFtYW5hdGhhbjI1QGdtYWlsLmNvbSIsInBhc3N3b3JkIjogIkxvZ2luQE1hcmNoMjUifX0=
   description: jfrog auth for bar
-  type: BarAuth
+  type: barauth
